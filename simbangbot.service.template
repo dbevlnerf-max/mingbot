@@ -1,5 +1,5 @@
 [Unit]
-Description=SimbangBot Discord Bot
+Description=Mingbot Discord Bot
 After=network-online.target
 Wants=network-online.target
 
@@ -14,7 +14,6 @@ Restart=on-failure
 RestartSec=5
 TimeoutStopSec=30
 KillSignal=SIGINT
-
 NoNewPrivileges=true
 PrivateTmp=true
 

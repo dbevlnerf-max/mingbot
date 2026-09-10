@@ -1,0 +1,33 @@
+# Secrets / runtime data
+.env
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+google-credentials*.json
+credentials*.json
+service-account*.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs / cache
+logs/
+*.log
+.cache/
+tmp/
+
+# Voice/generated media
+*.mp3
+*.wav
+*.ogg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
